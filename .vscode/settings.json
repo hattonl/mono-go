@@ -1,0 +1,9 @@
+{
+    "gopls": {
+        "experimentalWorkspaceModule": true
+    },
+    "go.testFlags": [
+        "-v",
+        "-count=1"
+                ]
+}
