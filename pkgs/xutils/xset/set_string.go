@@ -34,3 +34,11 @@ func (s *SetString) Contains(item interface{}) bool {
 func (s *SetString) Size() int {
 	return len(s.m)
 }
+
+func (s *SetString) Keys() []string {
+	var res []string
+	for key := range s.m {
+		res = append(res, key)
+	}
+	return res
+}
